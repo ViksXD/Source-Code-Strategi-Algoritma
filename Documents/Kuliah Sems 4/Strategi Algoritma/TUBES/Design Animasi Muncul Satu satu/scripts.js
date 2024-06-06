@@ -1,5 +1,5 @@
 let animationQueue = [];
-let animationSpeed = 1; // 1ms delay between each number appearing
+let animationSpeed = 100; // 1ms delay between each number appearing
 
 function initializeBoard(size) {
     const board = [];

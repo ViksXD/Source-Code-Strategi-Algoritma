@@ -143,7 +143,7 @@ function solveSudoku() {
     const size = parseInt(document.getElementById('sizeSelect').value);
     const algorithm = document.getElementById('algorithmSelect').value;
     const board = initializeBoard(size);
-    const chars = '123456789abcdefghijklmnopqrstuvwxyz'.slice(0, size);
+    const chars = 'abcdefghijklmnopqrstuvwxyz'.slice(0, size);
 
     createGrid(size);
     animationQueue = [];
